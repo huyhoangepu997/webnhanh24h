@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Thiết kế website 24h</title>
+    <!-- boostrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <!-- reset css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap&subset=vietnamese" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,700&display=swap" rel="stylesheet">
+    <!-- Slider top -->
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/demo.css">
+    <link rel="stylesheet" href="css/slicebox.css">
+    
+    <!-- Slick css -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
+    <!-- WOW JS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <!-- style.css -->
+    <link rel="stylesheet" href="css/masterpage.css">
+    <link rel="stylesheet" href="css/query.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+    
+<body>
+    <header>
+        <div class="header">
+          <!-- Thanh điều hướng -->
+            
+            <nav class="navbar navbar-expand-lg navbar-dark nav-top" id="navbar">
+                <div class="container">
+            <!-- Brand/logo -->
+                    <a class="navbar-brand" href="index.html">
+                        <img src="./image/logo.jpeg" alt="logo" class="logo">
+                    </a>
+
+          <!-- Links -->
+                    <ul class="navbar-nav ul-nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">TRANG CHỦ</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-light" href="#">KHO GIAO DIỆN <i class="fa fa-plus plus" aria-hidden="true"></i></a>
+                            <div class="dropdown-content">
+                                <a href="#">Mẫu web thương mại điện tử</a>
+                                <a href="#">Mẫu web giới thiệu công ty  </a>
+                                <a href="#">Mẫu web ảnh viện áo cưới  </a>
+                                <a href="#">Mẫu web âm nhạc  </a>
+                                <a href="#">Mẫu web nhà hàng khách sạn  </a>
+                                <a href="#">Mẫu web bất động sản  </a>
+                                <a href="#">Mẫu web cá nhân  </a>
+                                <a href="#">Mẫu web du lịch  </a>
+                                <a href="#">Mẫu web giáo dục  </a>
+                                <a href="#">Mẫu web tin tức  </a>
+                            </div>
+                        </li>
+                        <li class="nav-item  dropdown">
+                            <a class="nav-link text-light" href="#">DỊCH VỤ <i class="fa fa-plus plus" aria-hidden="true"></i></a>
+                            <div class="dropdown-content">
+                                <a href="#">Thiết kế web giá rẻ</a>
+                                <a href="#">Thiết kế web theo mẫu</a>
+                                <a href="#">Thiết kế web theo yêu cầu</a>
+                                <a href="#">Thiết kế web chuẩn SEO chuyên nghiệp</a>
+                                <a href="#">Thiết kế web chuẩn Mobile</a>
+                                <a href="#">Dịch vụ SEO website</a>
+                                <a href="#">Dịch vụ viết bài SEO website</a>
+                                <a href="#">Thiết kế web trọn gói giá rẻ</a>
+                                <a href="#">Chăm sóc website</a>
+                                <a href="#">Hosting chất lượng cao</a>
+                                <a href="#">Domain giá rẻ</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">THIẾT KẾ WEBSITE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">SEO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">KHÁCH HÀNG</a>
+                        </li>
+                        <li class="nav-item  dropdown">
+                            <a class="nav-link text-light" href="#">THÊM <i class="fa fa-plus plus" aria-hidden="true"></i></a>
+                            <div class="dropdown-content">
+                                <a href="#">Giới thiệu dịch vụ</a>
+                                <a href="#">Bảng giá web trọn gói</a>
+                                <a href="#">Tin tức</a>
+                                <a href="#">Hỗ trợ khách hàng</a>
+                                <a href="#">Hình thức thanh toán</a>
+                                <a href="#">Tuyển dụng</a>
+                                <a href="#">Quá trình thiết kế website</a>
+                                <a href="#">Điều kiện và chính sách</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">LIÊN HỆ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">ĐĂNG KÝ</a>
+                        </li>
+                    </ul>
+                    <span class="ba-vach" onclick="openNav()">&#9776;</span>
+                </div>
+            </nav>
+<!-- end navbar -->
+        </div>
+        <div id="mySidenav" class="sidenav">
+            <div>
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" title="Đóng Menu">&times;</a>
+            </div>
+            
+            <a href="#">TRANG CHỦ</a>
+            <a href="#" class="nav-link col1">KHO GIAO DIỆN<i class="fa fa-plus plus" style="
+    margin-left: 0.5rem;" aria-hidden="true"></i></a>
+            <div class="kho-giao-dien" id="col1" style="display: none;">
+                <a href="#" class="nav-link">Mẫu web thương mại điện tử</a>
+                <a href="#">Mẫu web giới thiệu công ty  </a>
+                <a href="#">Mẫu web ảnh viện áo cưới  </a>
+                <a href="#">Mẫu web âm nhạc  </a>
+                <a href="#">Mẫu web nhà hàng khách sạn  </a>
+                <a href="#">Mẫu web bất động sản  </a>
+                <a href="#">Mẫu web cá nhân  </a>
+                <a href="#">Mẫu web du lịch  </a>
+                <a href="#">Mẫu web giáo dục  </a>
+                <a href="#">Mẫu web tin tức  </a>
+            </div>
+            <a href="#" class="nav-link col2">DỊCH VỤ<i class="fa fa-plus plus" aria-hidden="true" style="
+    margin-left: 0.5rem;"></i></a>
+            <div class="kho-giao-dien" id="col2" style="display: none;">
+                <a href="#">Thiết kế web giá rẻ</a>
+                <a href="#">Thiết kế web theo mẫu</a>
+                <a href="#">Thiết kế web theo yêu cầu</a>
+                <a href="#">Thiết kế web chuẩn SEO chuyên nghiệp</a>
+                <a href="#">Thiết kế web chuẩn Mobile</a>
+                <a href="#">Dịch vụ SEO website</a>
+                <a href="#">Dịch vụ viết bài SEO website</a>
+                <a href="#">Thiết kế web trọn gói giá rẻ</a>
+                <a href="#">Chăm sóc website</a>
+                <a href="#">Hosting chất lượng cao</a>
+                <a href="#">Domain giá rẻ</a>
+            </div>
+            <a href="#">THIẾT KẾ WEBSITE</a>
+            <a href="#">SEO</a>
+            <a href="#">KHÁCH HÀNG</a>
+            <a href="#" class="nav-link col3">THÊM<i class="fa fa-plus plus" aria-hidden="true" style="
+    margin-left: 0.5rem;"></i></a>
+            <div class="kho-giao-dien" id="col3" style="display: none;">
+                <a href="#">Giới thiệu dịch vụ</a>
+                <a href="#">Bảng giá web trọn gói</a>
+                <a href="#">Tin tức</a>
+                <a href="#">Hỗ trợ khách hàng</a>
+                <a href="#">Hình thức thanh toán</a>
+                <a href="#">Tuyển dụng</a>
+                <a href="#">Quá trình thiết kế website</a>
+                <a href="#">Điều kiện và chính sách</a>
+            </div>
+            <a href="#">LIÊN HỆ</a>
+            <a href="#">ĐĂNG KÝ</a>
+        </div>
+        <div class="wrap-header">
+            <div class="slider-top">
+                <ul id="sb-slider" class="sb-slider">
+                    <li>
+                        <a href="javascript:void(0)">
+                            <img src="image/slide-1.jpg"
+                            alt="">
+                        </a>  
+                        <div class="slide-text">
+                            <h3 class="slide-text--title">Talent Wins</h3>
+                            <p class="slide-text--desc">Thiết kế website chuyên nghiệp cho doanh nghiệp</p>
+                        </div>
+                        <!-- <div class="sb-description">
+                          <h3>Creative Lifesaver</h3>
+                        </div> -->
+                        <img class="icon-animation icon-animation-1 wow bounceInLeft" data-wow-delay="6.5s" src="http://thietkewebnhanh247.com/wp-content/uploads/2016/11/banner_4_-21.png" alt="">
+                        <img class="icon-animation icon-animation-2 wow bounceInRight" data-wow-delay="7s" src="http://thietkewebnhanh247.com/wp-content/uploads/2016/11/banner_4_-31.png" alt="">
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">
+                            <img src="image/slide-3.jpeg"
+                            alt="">
+                        </a>
+                        
+                        <div class="sb-description wow pulse">
+                            <h3 class="slide-text--title-2">Talent Wins</h3>
+                        </div>
+                        <img class="icon-animation icon-animation-3 wow flipInX" data-wow-delay="1s" src="http://thietkewebnhanh247.com/wp-content/uploads/2016/11/banner_4_-91.png" alt="">
+                        <img class="icon-animation icon-animation-4 wow flipInX" data-wow-delay="1s" src="http://thietkewebnhanh247.com/wp-content/uploads/2016/11/banner_4_-11.png" alt="">
+                        <img class="icon-animation icon-animation-5 wow flipInX" data-wow-delay="1s" src="image/icon-1.png" alt="">
+                        <h1 class="talent wow zoomIn">Hello World!</h1>
+                    </li>
+                </ul>
+
+                <!-- <div id="shadow" class="shadow"></div>
+ -->
+                <div id="nav-arrows" class="nav-arrows">
+                  <a href="#">Next</a>
+                  <a href="#">Previous</a>
+                </div>
+
+            </div>
+            
+        </div>
+    </header>
+    <div class="content">
+        <div class="services__index">
+            <div class="container">
+                <div class="group__services">
+                    <div class="row">     
+                        <div class="col-12 group__services-wrap">
+                            <h2 class="group__services-text wow flash">Nhu cầu thiết kế website của bạn</h2>
+                            <ul class="list__services">
+                                <li class="col-12 col-md-4 list__services-stt wow fadeInLeft">
+                                    <img class="list__services-img" src="http://thietkewebnhanh247.com/wp-content/themes/thietkewebsite/img/giaiphap1.png" alt="">
+                                    <a href="" class="list__services-link">
+                                        Thiết kế website
+                                    </a>
+                                    <h3 class="list__services-title">
+                                        <a href="">Doanh nghiệp</a>
+                                    </h3>
+                                    <p class="list__services-desc">
+                                        <a href="">Phát triển và thúc đẩy doanh nghiệp, gia tăng giá trị thương hiệu</a>
+                                    </p>
+                                </li>
+                                <li class="col-12 col-md-4 list__services-stt wow bounceInDown" data-wow-delay="1s">
+                                    <img class="list__services-img" src="http://thietkewebnhanh247.com/wp-content/themes/thietkewebsite/img/giaiphap2.png" alt="">
+                                    <a href="" class="list__services-link">
+                                        Thiết kế website
+                                    </a>
+                                    <h3 class="list__services-title">
+                                        <a href="">THEO YÊU CẦU RIÊNG</a>
+                                    </h3>
+                                    <p class="list__services-desc">
+                                        <a href="">Đưa ra ý tưởng và tập trung vào kinh doanh, chuyện còn lại để chúng tôi lo</a>
+                                    </p>
+                                    <p class="view-more">
+                                        <a href="">Xem thêm</a>
+                                    </p>
+                                </li>
+                                <li class="col-12 col-md-4 list__services-stt wow fadeInRight">
+                                    <img class="list__services-img" src="http://thietkewebnhanh247.com/wp-content/themes/thietkewebsite/img/giaiphap3.png" alt="">
+                                    <a href="" class="list__services-link">
+                                        Thiết kế website
+                                    </a>
+                                    <h3 class="list__services-title">
+                                        <a href="">SHOP BÁN HÀNG</a>
+                                    </h3>
+                                    <p class="list__services-desc">
+                                        <a href="">Tăng doanh số và thúc đẩy kinh doanh, chiếm lĩnh thị trường trực tuyến</a>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>                            
+                </div>
+                <div class="hr">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="services__block">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-md-3 services__block-stt wow bounceInLeft">
+                        <a href="http://thietkewebnhanh247.com/kho-giao-dien/">
+                            <i class="fas fa-book fa-3x"></i>
+
+                        </a>
+                        <p class="services__block-text">
+                            <a href="">Khách hàng lựa chọn giao diện website phù hợp</a>
+                        </p>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3 services__block-stt wow bounceInDown">
+                        <a href="http://thietkewebnhanh247.com/kho-giao-dien/">
+                            <i class="far fa-list-alt fa-3x"></i>
+
+                        </a>
+                        <p class="services__block-text">
+                            <a href="">Cung cấp thông tin và yêu cầu chỉnh sửa website</a>
+                        </p>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3 services__block-stt wow bounceInDown">
+                        <a href="http://thietkewebnhanh247.com/kho-giao-dien/">
+                            <i class="fas fa-pencil-alt fa-3x"></i>
+
+                        </a>
+                        <p class="services__block-text">
+                            <a href="">Chỉnh sửa theo yêu cầu và tiến hành demo</a>
+                        </p>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3 services__block-stt wow bounceInRight">
+                        <a href="http://thietkewebnhanh247.com/kho-giao-dien/">
+                            <i class="fas fa-globe-americas fa-3x"></i>
+                        </a>
+                        <p class="services__block-text">
+                            <a href="">Tiến hành chạy thử nghiệm và bàn giao sản phẩm</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="welcome__massage">
+            <div class="container">
+                <div class="welcome__massage-wrap">
+                    <h3 class="wow bounceInUp">
+                        Vì <span>1000+ doanh nghiệp</span> Việt Nam thành công hơn với internet
+                    </h3>
+                    <p class="wow bounceInUp">Thiết kế web chuyên nghiệp của Ezoom sử dụng công nghệ thiết kế web chuyên nghiệp, thiết kế web nhanh chỉ với bốn bước cơ bản. Website được tối ưu với các công cụ tìm kiếm, Website tương thích với các thiết bị di động… Giao diện sang trọng, tiện dụng… Dễ dàng thay đổi theo phong cách riêng của bạn…</p>
+                    <p class="wow bounceInUp">
+                        <a href="" class="btn btn-primary">
+                            <i class="far fa-hand-point-right"></i>
+                            Xem thêm
+                        </a>
+                        <a href="" class="btn btn-success">
+                            <i class="far fa-heart"></i>
+                            Trải nghiệm ngay
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="list__category">
+            <!-- <div class="container"> -->
+                <ul class="list__category-item wow bounceInUp">
+                    <li>
+                        <a href="">
+                            <img src="http://thietkewebnhanh247.com/wp-content/uploads/2016/11/cart.png" alt="">
+                        </a>
+                        <p><a href="">Mẫu website thương mại điện tử</a></p>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="http://thietkewebnhanh247.com/wp-content/uploads/2016/11/intro-web.png" alt="">
+                        </a>
+                        <p><a href="">Mẫu web giới thiệu công ty</a></p>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="http://thietkewebnhanh247.com/wp-content/uploads/2016/11/news.png" alt="">
+                        </a>
+                        <p><a href="">Mẫu web tin tức</a></p>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="http://thietkewebnhanh247.com/wp-content/uploads/2016/11/heart.png" alt="">
+                        </a>
+                        <p>Mẫu web ảnh viện áo cưới<a href=""></a></p>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="http://thietkewebnhanh247.com/wp-content/uploads/2016/11/music.png" alt="">
+                        </a>
+                        <p><a href="">Mẫu web âm nhạc</a></p>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="http://thietkewebnhanh247.com/wp-content/uploads/2016/11/personal.png" alt="">
+                        </a>
+                        <p><a href="">Mẫu web cá nhân</a></p>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="http://thietkewebnhanh247.com/wp-content/uploads/2016/11/education.png" alt="">
+                        </a>
+                        <p><a href="">Mẫu web giáo dục</a></p>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="http://thietkewebnhanh247.com/wp-content/uploads/2016/11/real-estate.png" alt="">
+                        </a>
+                        <p><a href="">Mẫu web bất động sản</a></p>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="http://thietkewebnhanh247.com/wp-content/uploads/2016/11/restaurant1.png" alt="">
+                        </a>
+                        <p><a href="">Mẫu web nhà hàng khách sạn</a></p>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="http://thietkewebnhanh247.com/wp-content/uploads/2016/11/travel.png" alt="">
+                        </a>
+                        <p><a href="">Mẫu web du lịch</a></p>
+                    </li>
+                </ul>
+            <!-- </div> -->
+        </div>
+        <div class="woocommerce">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-md-4 woocommerce__list wow bounceInLeft">
+                        <a href="">
+                            <span>
+                                <img class="woocommerce__list-img" src="http://thietkewebnhanh247.com/wp-content/uploads/2018/01/homeshop_350.png" alt=""/>
+                            </span>
+                                <p>Mẫu web bán hàng home Shop chuyên nghiệp giá rẻ</p>
+                        </a>
+                        <p class="woocommerce__list-text">
+                            <a href="" class="btn btn-danger">
+                                <i class="far fa-eye"></i>
+                            Dùng thử</a>
+                            <a href="" class="btn btn-primary">
+                                <i class="fas fa-check"></i>
+                            Chọn mẫu web này</a>
+                        </p>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 woocommerce__list wow bounceInRight">
+                        <a href="">
+                            <span>
+                                <img class="woocommerce__list-img" src="http://thietkewebnhanh247.com/wp-content/uploads/2018/01/homeshop_350.png" alt=""/>
+                            </span>
+                                <p>Mẫu web bán hàng home Shop chuyên nghiệp giá rẻ</p>
+                        </a>
+                        <p class="woocommerce__list-text">
+                            <a href="" class="btn btn-danger">
+                                <i class="far fa-eye"></i>
+                            Dùng thử</a>
+                            <a href="" class="btn btn-primary">
+                                <i class="fas fa-check"></i>
+                            Chọn mẫu web này</a>
+                        </p>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 woocommerce__list wow bounceInLeft">
+                        <a href="">
+                            <span>
+                                <img class="woocommerce__list-img" src="http://thietkewebnhanh247.com/wp-content/uploads/2018/01/homeshop_350.png" alt=""/>
+                            </span>
+                                <p>Mẫu web bán hàng home Shop chuyên nghiệp giá rẻ</p>
+                        </a>
+                        <p class="woocommerce__list-text">
+                            <a href="" class="btn btn-danger">
+                                <i class="far fa-eye"></i>
+                            Dùng thử</a>
+                            <a href="" class="btn btn-primary">
+                                <i class="fas fa-check"></i>
+                            Chọn mẫu web này</a>
+                        </p>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 woocommerce__list wow bounceInRight">
+                        <a href="">
+                            <span>
+                                <img class="woocommerce__list-img" src="http://thietkewebnhanh247.com/wp-content/uploads/2018/01/homeshop_350.png" alt=""/>
+                            </span>
+                                <p>Mẫu web bán hàng home Shop chuyên nghiệp giá rẻ</p>
+                        </a>
+                        <p class="woocommerce__list-text">
+                            <a href="" class="btn btn-danger">
+                                <i class="far fa-eye"></i>
+                            Dùng thử</a>
+                            <a href="" class="btn btn-primary">
+                                <i class="fas fa-check"></i>
+                            Chọn mẫu web này</a>
+                        </p>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 woocommerce__list wow bounceInLeft">
+                        <a href="">
+                            <span>
+                                <img class="woocommerce__list-img" src="http://thietkewebnhanh247.com/wp-content/uploads/2018/01/homeshop_350.png" alt=""/>
+                            </span>
+                                <p>Mẫu web bán hàng home Shop chuyên nghiệp giá rẻ</p>
+                        </a>
+                        <p class="woocommerce__list-text">
+                            <a href="" class="btn btn-danger">
+                                <i class="far fa-eye"></i>
+                            Dùng thử</a>
+                            <a href="" class="btn btn-primary">
+                                <i class="fas fa-check"></i>
+                            Chọn mẫu web này</a>
+                        </p>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 woocommerce__list wow bounceInRight">
+                        <a href="">
+                            <span>
+                                <img class="woocommerce__list-img" src="http://thietkewebnhanh247.com/wp-content/uploads/2018/01/homeshop_350.png" alt=""/>
+                            </span>
+                                <p>Mẫu web bán hàng home Shop chuyên nghiệp giá rẻ</p>
+                        </a>
+                        <p class="woocommerce__list-text">
+                            <a href="" class="btn btn-danger">
+                                <i class="far fa-eye"></i>
+                            Dùng thử</a>
+                            <a href="" class="btn btn-primary">
+                                <i class="fas fa-check"></i>
+                            Chọn mẫu web này</a>
+                        </p>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 woocommerce__list wow bounceInLeft">
+                        <a href="">
+                            <span>
+                                <img class="woocommerce__list-img" src="http://thietkewebnhanh247.com/wp-content/uploads/2018/01/homeshop_350.png" alt=""/>
+                            </span>
+                                <p>Mẫu web bán hàng home Shop chuyên nghiệp giá rẻ</p>
+                        </a>
+                        <p class="woocommerce__list-text">
+                            <a href="" class="btn btn-danger">
+                                <i class="far fa-eye"></i>
+                            Dùng thử</a>
+                            <a href="" class="btn btn-primary">
+                                <i class="fas fa-check"></i>
+                            Chọn mẫu web này</a>
+                        </p>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 woocommerce__list wow bounceInRight">
+                        <a href="">
+                            <span>
+                                <img class="woocommerce__list-img" src="http://thietkewebnhanh247.com/wp-content/uploads/2018/01/homeshop_350.png" alt=""/>
+                            </span>
+                                <p>Mẫu web bán hàng home Shop chuyên nghiệp giá rẻ</p>
+                        </a>
+                        <p class="woocommerce__list-text">
+                            <a href="" class="btn btn-danger">
+                                <i class="far fa-eye"></i>
+                            Dùng thử</a>
+                            <a href="" class="btn btn-primary">
+                                <i class="fas fa-check"></i>
+                            Chọn mẫu web này</a>
+                        </p>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 woocommerce__list wow bounceInLeft">
+                        <a href="">
+                            <span>
+                                <img class="woocommerce__list-img" src="http://thietkewebnhanh247.com/wp-content/uploads/2018/01/homeshop_350.png" alt=""/>
+                            </span>
+                                <p>Mẫu web bán hàng home Shop chuyên nghiệp giá rẻ</p>
+                        </a>
+                        <p class="woocommerce__list-text">
+                            <a href="" class="btn btn-danger">
+                                <i class="far fa-eye"></i>
+                            Dùng thử</a>
+                            <a href="" class="btn btn-primary">
+                                <i class="fas fa-check"></i>
+                            Chọn mẫu web này</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="more__info">
+            
+            <div class="more__info-wrap">
+                <div class="container">
+                    <div class="col-12 col-md-12 more__info-wrap--p">
+                        <h2 class="more__info-wrap--title wow bounceInLeft">
+                            DỊCH VỤ THIẾT KẾ WEB CHUYÊN NGHIỆP - THIẾT KẾ WEB NHANH CAM KẾT:
+                        </h2>
+                        <p class="more__info-wrap--desc wow bounceInRight">
+                            Không dừng lại ở thiết kế website chuyên nghiệp, chúng tôi mang lại những công cụ để khách hàng có thể bán hàng trực tuyến và phát triển thương hiệu một cách hiệu quả nhất. Với chúng tôi, thành công của khách hàng cũng chính là thành công của chúng tôi
+                        </p>
+                        <div class="more__info-wrap--btn">
+                            <a href="" class="btn btn-primary wow bounceInLeft">
+                                <i class="far fa-image"></i>
+                            Kho giao diện</a>
+                            <a href="" class="btn btn-success wow bounceInRight">
+                                <i class="fas fa-pound-sign"></i>
+                                Bảng giá dịch vụ
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="customer wow shake">
+            <div class="customer__text">
+                <h2 class="group__services-text">
+                    Khách hàng làm web
+                </h2>
+                <p class="customer__text--desc">KHÁCH HÀNG VÀ ĐỐI TÁC SỬ DỤNG DỊCH VỤ THIẾT KẾ WEB</p>
+            </div>
+            <div class="customer__silder">
+                <img src="http://thietkewebnhanh247.com/wp-content/uploads/2017/12/hamleys.png" alt="">
+                <img src="http://thietkewebnhanh247.com/wp-content/uploads/2018/08/logo_thanhhung_316x200.jpg" alt="">
+                <img src="http://thietkewebnhanh247.com/wp-content/uploads/2016/10/thegioituixach1.jpg" alt="">
+                <img src="http://thietkewebnhanh247.com/wp-content/uploads/2016/10/2-dunkin-donuts1.jpg" alt="">
+                <img src="http://thietkewebnhanh247.com/wp-content/uploads/2016/10/tamkhoashop1.jpg" alt="">
+                <img src="http://thietkewebnhanh247.com/wp-content/uploads/2016/12/anhduong.jpg" alt="">
+                <img src="http://thietkewebnhanh247.com/wp-content/uploads/2016/12/logo.jpg" alt="">
+                <img src="http://thietkewebnhanh247.com/wp-content/uploads/2017/05/logo-coffee-website-up-tkwn.png" alt="">
+                <img src="http://thietkewebnhanh247.com/wp-content/uploads/2017/07/logo-bo-si-do-an-vat-2.png" alt="">
+                <img src="http://thietkewebnhanh247.com/wp-content/uploads/2017/07/logo_316.png" alt="">
+                <img src="http://thietkewebnhanh247.com/wp-content/uploads/2018/04/cua5f.png" alt="">
+                <img src="http://thietkewebnhanh247.com/wp-content/uploads/2018/11/logo-100.jpg" alt="">
+            </div>
+        </div>
+        <div class="contact">
+            <div class="container">
+                <div class="contact__wrap">
+                    <h4 class="contact__wrap-text">
+                        Chúng tôi hỗ trợ khách hàng 7 ngày trong tuần với hotline
+                        <br>
+                        <span>0987 468 234</span>
+                    </h4>
+                    <p class="contact__wrap-desc">Với đội ngũ nhân viên hơn 5 năm kinh nghiệm, không chỉ là hướng dẫn và xử lý các vấn đề từ website, chúng tôi luôn đồng hành tư vấn và phát triển cùng doanh nghiệp của bạn</p>
+                    <ul class="row contact__wrap-detail">
+                        <li class="col-md-4 col-12">
+                            <i class="fas fa-headphones fa-2x"></i>
+                            <p class="contact__wrap-detail--text">
+                                <span>Tư vấn thiết kế web</span>
+                                <br>
+                                <a href="">0987 468 234</a>
+                            </p>
+                        </li>
+                        <li class="col-md-4 col-12">
+                            <i class="fas fa-phone-alt fa-2x"></i>
+                            <p class="contact__wrap-detail--text">
+                                <span>Hỗ trợ kỹ thuật</span>
+                                <br>
+                                <a href="">0989 069 632</a>
+                            </p>
+                        </li>
+                        <li class="col-md-4 col-12">
+                            <i class="fas fa-envelope fa-2x"></i>
+                            <p class="contact__wrap-detail--text">
+                                <span>Gửi yêu cầu làm web</span>
+                                <br>
+                                <a href="">thietkewebnhanh247@gmail.com</a>
+                            </p>
+                        </li>                      
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer__wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 col-12">
+                        <ul class="footer__wrap-info">
+                            <li>
+                                <i class="fas fa-user fa-fw"></i>
+                                <a href="" class="footer__wrap-info--text">Công ty Công nghệ và dịch vụ Talent Wins</a>
+                            </li>
+                            <li>
+                                <i class="fab fa-codepen fa-fw"></i>
+                                <a href="" class="footer__wrap-info--text">Mã số thuế: 0314650129</a>
+                            </li>
+                            <li>
+                                <i class="far fa-calendar-alt fa-fw"></i>
+                                <a href="" class="footer__wrap-info--text">Ngày cấp: 28-09-2017</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-map-marker-alt fa-fw"></i>
+                                <a href="" class="footer__wrap-info--text">Tòa nhà CT2, khu đô thị Constrexim Thái Hà, Hà Nội</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-phone-alt fa-fw"></i>
+                                <a href="" class="footer__wrap-info--text">0987 468 234</a>
+                                -
+                                <i class="fas fa-phone-alt fa-fw"></i>
+                                <a href="" class="footer__wrap-info--text">0989 069 632</a>
+                            </li>
+                            <li>
+                                <i class="far fa-envelope fa-fw"></i>
+                                <a href="" class="footer__wrap-info--text">thietkewebnhanh247@gmail.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-12">
+                        <div class="footer__detail">
+                            <p class="footer__detail-service--title">
+                                Dịch vụ
+                            </p>
+                            <ul class="footer__detail-service--text">
+                                <li>
+                                    <i class="fas fa-angle-double-right"></i>
+                                    <a href="">Dịch vụ quản trị website</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-double-right"></i>
+                                    <a href="">Dịch vụ SEO từ khóa website giá rẻ</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-double-right"></i>
+                                    <a href="">Quảng cáo Google Adwords</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-double-right"></i>
+                                    <a href="">Thiết kế web du lịch chuyên nghiệp</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-double-right"></i>
+                                    <a href="">Thiết kế web tin tức, báo chí online</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-12">
+                        <div class="footer__detail">
+                            <p class="footer__detail-support--title">
+                                Hỗ trợ
+                            </p>
+                            <ul class="footer__detail-support--text">
+                                <li>
+                                    <i class="fas fa-angle-double-right"></i>
+                                    <a href="">Liên hệ chúng tôi</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-double-right"></i>
+                                    <a href="">Điều kiện và chính sách</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-double-right"></i>
+                                    <a href="">Quy trình thiết kế website</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-double-right"></i>
+                                    <a href="">Câu hỏi thường gặp</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-double-right"></i>
+                                    <a href="">Hỗ trợ khách hàng</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-12">
+                        <div class="footer__detail">
+                            <p class="footer__detail-design--title">
+                                Thiết kế website
+                            </p>
+                            <ul class="footer__detail-design--text">
+                                <li>
+                                    <i class="fas fa-angle-double-right"></i>
+                                    <a href="">Thiết kế website chuyên nghiệp</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-double-right"></i>
+                                    <a href="">Thiết kế website bất động sản</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-double-right"></i>
+                                    <a href="">Thiết kế web nhà hàng khách sạn</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-double-right"></i>
+                                    <a href="">Thiết kế web trọn gói chuyên nghiệp</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-double-right"></i>
+                                    <a href="">Thiết kế web bán hàng chuyên nghiệp</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="copy__right">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 col-12 copy__right--text">
+                    <i class="far fa-copyright"></i>
+                    <a href="">Copyright 2019 | Designed by Talent Wins | Dịch vụ thiết kế website hàng đầu Việt Nam</a>
+                </div>
+                <div class="col-md-3 col-12 copy__right--icon">
+                    <i class="fab fa-facebook-square fa-2x"></i>                   
+                    <i class="fab fa-google-plus-square fa-2x"></i>
+                    <i class="fab fa-twitter-square fa-2x"></i>
+                    <i class="fas fa-rss-square fa-2x"></i>
+                    <i class="fab fa-linkedin fa-2x"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Back to top -->
+    
+    <div id="back-to-top">
+        <a href="#" title="Back to top"><img src="http://thietkewebnhanh247.com/wp-content/themes/thietkewebsite/img/top.png" style="width:35px; height:auto" alt=""></a>
+    </div>
+    <!-- Phone -->
+    <a href="tel:911" mypage="" class="call-now" rel="nofollow">
+        <div class="mypage-alo-phone">
+            <div class="animated infinite zoomIn mypage-alo-ph-circle">         
+            </div>
+            <div class="animated infinite pulse mypage-alo-ph-circle-fill">
+            </div>
+            <div class="animated infinite tada mypage-alo-ph-img-circle">
+            </div>
+        </div>
+    </a>
+</body>
+<!-- bootstrap -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<!-- Font-awesome -->
+<script src="https://kit.fontawesome.com/df8fdd30a5.js"></script>
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<!-- Slider top -->
+<script src="js/modernizr.custom.46884.js"></script>
+<script src="js/jquery.slicebox.js"></script>
+<script src="js/textyle.js"></script>
+<!-- Textyle -->
+<script src="js/main.js"></script>
+<!-- Slick JS -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
+<!-- WOW JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+<!-- Slider.js -->
+<script src="js/slider.js"></script>
+</html>
